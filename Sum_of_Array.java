@@ -1,8 +1,8 @@
 public class Sum_of_Array {
     static int sumOfArray(int [] arr, int idx){
         //base case
-        if(idx==arr.length-1){
-            return arr[idx];
+        if(idx==arr.length){
+            return 0;
         }
 
         //recursive work
